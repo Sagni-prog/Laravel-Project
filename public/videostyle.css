@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+.main-header{
+    background-color: rgba(18, 29, 50, 0.95);
+    height: 80px;
+    position: fixed;
+    z-index: 12;
+    width: 100%;
+    top: 0px;
+}
+
+
+.main-header .logo {
+    line-height: 73px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-header .logo {
+    float: left;
+    line-height: 80px;
+    padding-left: 50px;
+}
+.main-header .logo a {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.main-header .logo a em {
+    font-style: normal;
+    color: rgb(245, 164, 37);
+}
+.a.menu-link {
+    float: right;
+    display: block;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    padding-right: 30px;
+    padding-top: 15px;
+}
+.fa {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    transform: translate(0px, 0px);
+    font: normal normal normal normal normal normal normal 1 FontAwesome;
+}
+.js nav[role="navigation"] {
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.main-menu {
+    float: right;
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    font-size: 20px;
+    
+    padding-right: 1.5rem;
+}
+.main-menu li {
+    /* margin-top: -1rem; */
+    display: inline-block;
+    line-height: 79px;
+    margin-left: 15px;
+    position: relative;
+    
+}
+.main-menu li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    
+}
+
+.container-g{
+    margin-top:4.99rem;
+    width: 100%;
+    display: flex;
+    
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.video-g{
+    width: 100%;
+    background-color: rgba(22, 34, 57, 0.95);
+}
+.play-it{
+    width: 100%;
+    padding: 15px 20px;
+   
+
+}
+.video-title{
+    
+ width: 100%;
+}
+.play-it h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-bottom: .5rem;
+}
+.dash{
+    margin-top: 1rem;
+    width: 100%;
+    height: 1px;
+    background: white;
+    opacity: 50%;
+
+}
+.account{
+    margin-top: .5rem;
+    width: 100%;
+    padding: 5px 5px;
+  
+    display: flex;
+align-items: center;
+justify-content: space-between;
+    
+}
+.account button{
+    padding: 4px 4px;
+    border-radius: 10px;
+    background:rgb(245, 164, 37) ;
+    width: 15%;
+    height: 2rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.name-sub{
+    opacity: 50%;
+}
+.accout-na{
+    font-size: 16px;
+}
+.sub{
+    margin-top: .2rem;
+    font-size: 13px;
+}
+.discr{
+    padding: 10px 65px;
+
+    font-size: 14px;
+}
+
+.imgg{
+    
+    display: flex;
+    gap: .7rem;
+    align-items: center;
+    width: 70%;
+   
+}
+.imgg img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.imgg h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.video-p{
+    padding: 15px 3px;
+    width:100%;
+    height: 70vh;
+    
+}
+.view-section-p{
+    width: 50%;
+    opacity:50%;
+    font-size: 14px;
+    justify-content: space-between;
+    display: flex;
+}
+.commnet-setion{
+    width: 100%;
+     
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+}
+.commnet-here{
+    width: 100%;
+    overflow-y: auto;
+    height: 80vh;
+}
+.com-area{
+    margin-top: 1rem;
+    width: 100%;
+    /* background: blue; */
+    margin-bottom: .2rem;
+}
+.pro-comsec{
+    width: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+}
+.pro-comsecs{
+    margin-top: .4rem;
+    display: none;
+}
+.commiter_f{
+    transition: .2s;
+    width: 100%;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    padding-left: 10px;
+    color:#fff;
+    border-bottom: 1px solid #fff;
+    outline: none;
+}
+.com-area img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.comfrim_box{
+    float: right;
+    display: none;
+   
+}
+
+.btn_class{
+    padding: 1px 10px;
+    border-radius: 5px;
+   height: 2rem;
+   font-size: 15px;
+   opacity: 80%;
+   
+}
+.commenters-com{
+    width: 100%;
+}
+.comminets{
+    width: 100%;
+    display: flex;
+    margin-bottom: .4rem;
+}
+.comminets img{
+    width: 50px;
+    height: 50px;
+}
+.com-pro{
+    width: 100%;
+    padding-left: 10px;
+}
+.comm-header{
+    width: 100%;
+    display: flex;
+    gap: .8rem;
+    opacity: 50%;
+    margin-bottom: .2rem;
+}
+.comm-header h3{
+    font-size: 16px;
+    
+}
+.date-com{
+font-size: 16px;
+
+}
+.com-para{
+    font-size: 15px;
+    margin-bottom: .5rem;
+}
+/* playlist setion */
+.playlists-list{
+    overflow-y:scroll;
+  height:200vh;
+    width: 50%;
+    background-color: rgba(22, 34, 57, 0.95);
+    padding-top: 10px;
+    padding-right: 15px;
+}
+.show-tit{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(18, 29, 50, 0.95);
+    border: .5px solid rgba(255, 255, 255, 0.37);
+}
+.video-categoreg{
+    width: 100%;
+   
+}
+.list-catagore{
+    
+    
+    margin-top: .5rem;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+.list-catagore a{
+    height:3rem;
+    padding: 8px 8px;
+    border-radius: 50px;
+    border: .5px solid rgba(255, 255, 255, 0.37);
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    background-color: rgba(18, 29, 50, 0.95);
+}
+.vid-g{
+    margin-top: 1rem;
+    width: 100%;
+     display: block;
+    display: flex;
+    gap: .2rem;
+
+}
+.vid-g video{
+    width: 40%;
+    height: 45%;
+    padding: 2px 2px;
+    
+  
+}
+.vid-g:hover{
+    background: rgb(189, 124, 20);
+    border-radius: 5px;
+    
+}
+.vid-title{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+    max-height: 4rem;
+    overflow: hidden;
+    margin-bottom: .7rem;
+    
+}
+.small-dis{
+    width: 100%;
+    
+    
+   
+}
+.accout-name{
+    font-size: 16px;
+    opacity: 50%;
+  margin-bottom: .6rem;
+
+}
+.date-p{
+    font-size: 14px;
+    opacity: 50%;
+}
